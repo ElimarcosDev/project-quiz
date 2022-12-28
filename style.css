@@ -1,0 +1,27 @@
+*{
+    padding: 0px; margin: 0px;
+}
+header{
+    background-color: brown;
+}
+main{
+    background-color: blueviolet;
+    max-width: 60em;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+.button{
+    background-color: rgb(82, 26, 134);
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    max-width: 70vw;
+}
+.button:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+}
