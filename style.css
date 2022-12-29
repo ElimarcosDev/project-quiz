@@ -10,6 +10,7 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    height: 100vh;
 }
 .button{
     background-color: rgb(82, 26, 134);
@@ -24,4 +25,20 @@ main{
 }
 footer{
     background-color: black;
+}
+#reset{
+    display: none;
+}
+i{
+    background-color: brown;
+    border-radius: 100%;
+    margin: 10px;
+    margin-bottom: 0px;
+    
+}
+i:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.407);
+    border-radius: 100%;
+    color: beige;
 }

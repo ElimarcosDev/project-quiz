@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </head>
 <body>
     <header>
@@ -14,19 +15,21 @@
 
     <main>
         <h2>Em qual filme harry potter encontra a capa de invivibilidade?</h2>
-        <div id="op1" class="button">
+        <div id="reset"><i onclick="resetpage()" class="material-icons">restart_alt</i></div>
+
+        <div onclick="botaoclick()" id="op1" class="button">
             harry potter e a camara secreta
         </div>
 
-        <div id="op2" class="button">
-            harry potter e o prisioneiro de azkaban
+        <div onclick="botaoclick()" id="op2" class="button">
+            harry potter e a pedra filosoval
         </div>
 
-        <div id="op3" class="button">
+        <div onclick="botaoclick()" id="op3" class="button">
             harry potter e o enigma do principe
         </div>
 
-        <div id="op4" class="button">
+        <div onclick="botaoclick()" id="op4" class="button">
             harry potter e a ordem da fenix
         </div>
     </main>
