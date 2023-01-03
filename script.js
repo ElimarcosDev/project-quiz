@@ -7,10 +7,11 @@ var opcao3 = document.getElementById("op3")
 var opcao4 = document.getElementById("op4")
 
 
-
+/*
 function botaoclick(){
-    if (alert==true){
     var alert = confirm("VOCE TEM CERTEZA?")
+    if (alert==true){
+    
     opcao1.style.backgroundColor= "red"
     opcao3.style.backgroundColor= "red"
     opcao4.style.backgroundColor= "red"
@@ -29,6 +30,23 @@ function botaoclick(){
     
 
 }
+*/
+function certo(){
+
+opcao1.style.backgroundColor= "red"
+opcao3.style.backgroundColor= "red"
+opcao4.style.backgroundColor= "red"
+opcao2.style.backgroundColor= "rgba(0, 255, 51, 0.697)"
+
+
+
+
+reset.style.display = 'block'
+next.style.display = 'block'
+
+
+}
+
 
 
 function resetpage(){

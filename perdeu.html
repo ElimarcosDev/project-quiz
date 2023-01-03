@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perdeu</title>
+    <style>
+        
+        *{
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        body{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+        }
+        img{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -110%);
+            width: 100vw;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <img src="imagens/perdeu.png" alt=""><br>
+    <a href="pergunta01.html"><img onmouseleave="mudarimg2()" onmouseenter="mudarimg()" id="img" src="imagens/repetir1.png" alt=""></a>
+</body>
+<script>
+    function mudarimg(){
+      var imagem = document.getElementById("img")
+      imagem.src = "imagens/repetir2.png"  
+    }
+    function mudarimg2(){
+      var imagem = document.getElementById("img")
+      imagem.src = "imagens/repetir1.png"  
+    }
+    
+
+</script>
+</html>
